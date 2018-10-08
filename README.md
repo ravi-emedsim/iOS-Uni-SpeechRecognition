@@ -18,3 +18,13 @@ This method will give you two parameters in callback.
                 print("ERRROr is \(error)")
             }
         }
+
+1.Stop speech engine
+Speech engine can be simply stop by calling endListening().
+i.e., 
+
+    speechKit.endListening()
+    
+    
+2.Start again Speech engine 
+    speechKit.startListening()
